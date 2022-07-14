@@ -17,7 +17,7 @@ spec:
         imagePullPolicy: Always
         name: message-app
         ports:
-        - containerPort: 8080
+        - containerPort: 4000
         envFrom:
         - configMapRef:
             name: message-configmap
