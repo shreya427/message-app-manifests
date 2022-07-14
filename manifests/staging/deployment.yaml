@@ -13,7 +13,7 @@ spec:
         app: message-app
     spec:
       containers:
-      - image:  akash125/message-app:v1
+      - image:  appmigacr.azurecr.io/nginx:v1
         imagePullPolicy: Always
         name: message-app
         ports:
