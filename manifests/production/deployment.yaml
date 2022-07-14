@@ -16,7 +16,7 @@ spec:
       - image:  appmigacr.azurecr.io/nginx:v1
         name: message-app
         ports:
-        - containerPort: 8080
+        - containerPort: 4000
         envFrom:
         - configMapRef:
             name: message-configmap
